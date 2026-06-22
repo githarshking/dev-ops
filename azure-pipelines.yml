@@ -12,7 +12,7 @@ pool:
 steps:
 - task: Maven@4
   inputs:
-    mavenPomFile: 'prog%202/myapp/pom.xml'
+    mavenPomFile: 'prog 2/myapp/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.17'
